@@ -1,10 +1,10 @@
-# jupyterlab_mysql
+# jupyterlab_mysql_m1
 ## ※M1Mac用です
 jupyterlabとMySQLをセットにしたdocker-composeディレクトリです
 
 (dbとworkは自動で生成されます)
 ```
-jupyterlab_mysql
+jupyterlab_mysql_m1
 ├── db => (MySQLのデータ保存場所)
 │── work => （jupyterlabのコードを保存する場所）
 │           
@@ -25,7 +25,7 @@ git clone git@github.com:keikois/jupyterlab_mysql_m1.git
 
 クローンした後
 ```
-cd jupyterlab_mysql
+cd jupyterlab_mysql_m1
 ```
 ```
 docker-compose up -d
